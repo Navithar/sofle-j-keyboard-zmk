@@ -41,7 +41,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        SE {
+        Jose {
             bindings = <
 &kp GRAVE   &kp N1        &kp N2  &kp N3            &kp N4        &kp N5       &kp UP_ARROW     &kp N6     &kp N7     &kp N8     &kp N9            &kp N0             &kp MINUS
 &kp TAB     &kp Q         &kp W   &kp E             &kp R         &kp T        &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O             &kp P              &kp BACKSPACE
@@ -69,11 +69,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans       &trans
-&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans       &trans
-&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans       &trans
-&trans     &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans  &kp N0        &sys_reset    &soft_off     &bootloader  &trans
-&trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans        &trans        &trans        &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans       &trans
+&trans  &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans       &trans
+&trans  &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans       &trans
+&trans  &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans  &kp N0        &sys_reset    &soft_off     &bootloader  &trans
+&trans  &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans        &trans        &trans        &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
